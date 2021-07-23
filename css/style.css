@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   --light-purple: #8D79FD;
+  --text-color-dark:#2F2E2E;
 }
 body a {
   text-decoration: none;
@@ -156,7 +157,7 @@ header {
 .about .about__card .about__title {
   margin-top: 1rem;
   font-size: 20px;
-  color: #2F2E2E;
+  color: var(--text-color-dark);
 }
 .about .about__card .about__desc {
   text-align: center;
@@ -168,4 +169,70 @@ header {
 .about .about__svg {
   width: 2.4rem;
   fill: var(--light-purple);
+}
+
+.work__title {
+  text-align: center;
+  font-size: 40px;
+  color: var(--text-color-dark);
+}
+
+.work-info {
+  background-color: #F2F7FF;
+  padding: 5rem 0 8rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work-info .work__card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr) 1fr);
+  grid-template-areas: "col1 col2";
+  margin-top: 5rem;
+  max-width: 760px;
+  gap: 2rem;
+}
+.work-info .work__card .col1 {
+  grid-area: col1;
+}
+.work-info .work__card .col2 {
+  grid-area: col2;
+}
+.work-info .work__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.work-info .work__text-wrapper .work__card__title {
+  font-size: 40px;
+  color: var(--text-color-dark);
+}
+.work-info .work__text-wrapper .work__card__desc {
+  margin-top: 1rem;
+  line-height: 2em;
+  font-size: 16px;
+  color: #605e5e;
+  font-weight: 300;
+}
+
+footer {
+  background-color: #0B2151;
+  padding: 1.6rem 0;
+  display: grid;
+  place-content: center;
+}
+footer .icons-wrapper {
+  display: grid;
+  place-content: center;
+}
+footer .icons-wrapper ul {
+  display: flex;
+  gap: 1rem;
+}
+footer .copyright {
+  color: #615CC5;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
