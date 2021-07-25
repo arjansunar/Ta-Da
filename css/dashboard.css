@@ -151,7 +151,8 @@ footer .copyright {
 
 .dashboard {
   height: 90vh;
-  overflow: scroll;
+  overflow-y: scroll;
+  scrollbar-width: none;
 }
 .dashboard::-webkit-scrollbar {
   display: none;
