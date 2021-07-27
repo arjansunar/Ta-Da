@@ -103,13 +103,15 @@ footer .copyright {
 }
 
 :root {
-  --light-purple: #8D79FD;
-  --text-color-dark:#2F2E2E;
-  --dark-blue: #0B2151;
-  --purple-dashboard: #576BE7;
-  --dark-text: #2F2E2E;
-  --gray-text:#7A7878;
-  --light-hover-purple:#9585ee;
+  --light-purple: #8d79fd;
+  --text-color-dark: #2f2e2e;
+  --dark-blue: #0b2151;
+  --purple-dashboard: #576be7;
+  --dark-text: #2f2e2e;
+  --gray-text: #7a7878;
+  --dark-gray-text: #525252;
+  --light-hover-purple: #9585ee;
+  --gray-bg: #f0f0f0;
 }
 
 .dashboard-main {
