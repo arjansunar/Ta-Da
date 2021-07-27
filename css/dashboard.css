@@ -107,6 +107,9 @@ footer .copyright {
   --text-color-dark:#2F2E2E;
   --dark-blue: #0B2151;
   --purple-dashboard: #576BE7;
+  --dark-text: #2F2E2E;
+  --gray-text:#7A7878;
+  --light-hover-purple:#9585ee;
 }
 
 .dashboard-main {

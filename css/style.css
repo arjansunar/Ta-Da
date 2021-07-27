@@ -25,6 +25,9 @@ body h1, body h2, body h3, body h4, body p, body h5, body h6 {
   --text-color-dark:#2F2E2E;
   --dark-blue: #0B2151;
   --purple-dashboard: #576BE7;
+  --dark-text: #2F2E2E;
+  --gray-text:#7A7878;
+  --light-hover-purple:#9585ee;
 }
 
 .logo {
